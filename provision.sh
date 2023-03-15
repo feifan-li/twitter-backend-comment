@@ -26,7 +26,6 @@ else
   echo "pip3 已安装"
 fi
 
-# 升级pip，目前存在问题，read timed out，看脸，有时候可以，但大多时候不行
 python -m pip install --upgrade pip
 # 换源完美解决
 # 安装pip所需依赖
